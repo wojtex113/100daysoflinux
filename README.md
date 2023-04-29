@@ -7,6 +7,7 @@ Today (29-04-2023) I've started the #100DaysOfLinux challenge. My goal is to fin
 
 So, let's get started :)
 
-# Day 1 (Saturday, 29-04-2023)
-## Git
+## Day 1 (Saturday, 29-04-2023)
+### Git
 - work with git (create remote repo)
+https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
