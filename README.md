@@ -9,5 +9,5 @@ So, let's get started :)
 
 ## Day 1 (Saturday, 29-04-2023)
 ### Git
-- work with git (create remote repo and push commit)\
+- work with git (create remote repo and push commit) <br />
 https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
