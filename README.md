@@ -21,3 +21,7 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 ## Day 2 (Sunday, 30-04-2023) [Firefighter duty]
 ### Docker
 - watch a film on YT from IT conference - "how Docker work inside"
+
+## Day 3 (Monday, 01-05-2023)
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
+- exercises about file management in Linux (performed on Ubuntu running in Docker)
