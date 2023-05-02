@@ -25,3 +25,7 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 ## Day 3 (Monday, 01-05-2023)
 ### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
 - exercises about file management in Linux (performed on Ubuntu running in Docker)
+
+## Day 4 (Thuesday, 02-05-2023)
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
+- configure the web server (Apache), which is running on Ubuntu as a virtual machine in VirtualBox 
