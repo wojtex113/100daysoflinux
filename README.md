@@ -29,3 +29,7 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 ## Day 4 (Thuesday, 02-05-2023)
 ### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
 - configure the web server (Apache), which is running on Ubuntu as a virtual machine in VirtualBox 
+
+## Day 5 (Wednesday, 03-05-2023)
+- read news and articles about Linux
+
