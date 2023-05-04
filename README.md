@@ -33,3 +33,7 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 ## Day 5 (Wednesday, 03-05-2023)
 - read news and articles about Linux
 
+## Day 6 (Thursday, 04-05-2023)
+### NGINX
+- "nginx in a hour" course by Jakub ‘unknow’ Mrugalski - I used virtual machine with Red Hat as the lab system
+
