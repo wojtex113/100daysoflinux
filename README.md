@@ -15,7 +15,7 @@ So, let's get started :)
 ### Git
 - work with git (create remote repo and push commits)<br/>
 https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
-### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - user management
 - exercises about users management in Linux (performed on Ubuntu running in Docker)
 
 ## Day 2 (Sunday, 30-04-2023) [Firefighter duty]
@@ -23,11 +23,11 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 - watch a film on YT from IT conference - "how Docker work inside"
 
 ## Day 3 (Monday, 01-05-2023)
-### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - file management
 - exercises about file management in Linux (performed on Ubuntu running in Docker)
 
 ## Day 4 (Thuesday, 02-05-2023)
-### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Apache
 - configure the web server (Apache), which is running on Ubuntu as a virtual machine in VirtualBox 
 
 ## Day 5 (Wednesday, 03-05-2023)
@@ -36,4 +36,8 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 ## Day 6 (Thursday, 04-05-2023)
 ### NGINX
 - "nginx in a hour" course by Jakub ‘unknow’ Mrugalski - I used virtual machine with Red Hat as the lab system
+
+## Day 7 (Friday, 05-05-2023)
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Nginx
+- configure the web server (NGINX), which is running on Red Hat as a virtual machine in VirtualBox 
 
