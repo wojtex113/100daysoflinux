@@ -41,3 +41,6 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 ### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Nginx
 - configure the web server (NGINX), which is running on Red Hat as a virtual machine in VirtualBox 
 
+## Day 8 (Saturday, 06-05-2023) [Firefighter duty]
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Nginx
+- I'm finishing yesterday's nginx excercises
