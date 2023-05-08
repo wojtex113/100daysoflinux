@@ -50,4 +50,10 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 
 ## Day 10 (Monday, 08-05-2023)
 ### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible
-- run 5 Ubuntu wirtual machines in VirtualBox and manage them with Ansible from a laptop with Fedora
+- run 5 Ubuntu wirtual machines in VirtualBox and manage them with Ansible from a VM with RedHat
+### Ansible
+- watch "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski
+
+---
+### Finished courses:
+- "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
