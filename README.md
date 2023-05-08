@@ -50,7 +50,7 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 
 ## Day 10 (Monday, 08-05-2023)
 ### Ansible
-- "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski (6 lessons out of 9)
+- "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski (6 lessons out of 9)<br/>
 run 3 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a VM with Red Hat
 
 ---
