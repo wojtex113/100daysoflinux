@@ -44,3 +44,10 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 ## Day 8 (Saturday, 06-05-2023) [Firefighter duty]
 ### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Nginx
 - I'm finishing yesterday's nginx excercises
+
+## Day 9 (Sunday, 07-05-2023)
+- listen podcasts about Linux
+
+## Day 10 (Monday, 08-05-2023)
+### ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible
+- run 5 Ubuntu wirtual machines in VirtualBox and manage them with Ansible from a laptop with Fedora
