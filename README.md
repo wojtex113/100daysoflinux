@@ -56,6 +56,10 @@ run 3 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a 
 ## Day 11 (Thuesday, 09-05-2023) [Firefighter duty]
 - read articles on redhat.com
 
+## Day 12 (Wendesday, 10-05-2023)
+- create blog post titled "How did my adventure with Linux start"
+https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/
+
 ---
 ### Finished courses:
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
