@@ -53,6 +53,9 @@ https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 - "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski (6 lessons out of 9)<br/>
 run 3 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a VM with Red Hat
 
+## Day 11 (Thuesday, 09-05-2023) [Firefighter duty]
+- read articles on redhat.com
+
 ---
 ### Finished courses:
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
