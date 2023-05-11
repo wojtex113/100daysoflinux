@@ -59,10 +59,14 @@ run 3 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a 
 ## Day 12 (Wendesday, 10-05-2023)
 - create blog post titled "How did my adventure with Linux start?"<br />
 https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/
-## Ansible
+### Ansible
 - "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski (other lessons)<br/>
 - ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible<br/>
 run 5 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a VM with Red Hat
+
+## Day 13 (Thursday, 11-05-2023)
+### Ansible
+- continued ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible
 
 ---
 ### Finished courses:
