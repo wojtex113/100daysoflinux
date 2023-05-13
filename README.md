@@ -14,7 +14,7 @@ So, let's get started :)
 ### :yellow_circle: Day 1 (Saturday, 29-04-2023)
 **Git**
 - work with git (create remote repo and push commits)<br/>
-https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
+https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/<br/>
 **ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - user management**
 - exercises about users management in Linux (performed on Ubuntu running in Docker)
 
@@ -58,7 +58,7 @@ run 3 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a 
 
 ### :yellow_circle: Day 12 (Wendesday, 10-05-2023)
 - create blog post titled "How did my adventure with Linux start?"<br />
-https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/
+https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/<br/>
 **Ansible**
 - "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski (other lessons)<br/>
 - ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible<br/>
