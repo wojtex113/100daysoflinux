@@ -11,14 +11,14 @@ Additionaly, I'm a firefighter in Państwowa Straż Pożarna, where we work 24-h
 
 So, let's get started :)
 
-### Day 1 (Saturday, 29-04-2023)
+### :yellow_circle:Day 1 (Saturday, 29-04-2023)
 **Git**
 - work with git (create remote repo and push commits)<br/>
 https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
 **ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - user management**
 - exercises about users management in Linux (performed on Ubuntu running in Docker)
 
-### Day 2 (Sunday, 30-04-2023) [Firefighter duty]
+### :yellow_circle:Day 2 (Sunday, 30-04-2023) [Firefighter duty]
 **Docker**
 - watch a film on YT from IT conference - "how Docker work inside"
 
