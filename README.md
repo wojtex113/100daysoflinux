@@ -68,6 +68,13 @@ run 5 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a 
 ### Ansible
 - continued ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible
 
+## Day 14 (Friday, 12-05-2023) [Firefighter duty]
+- read news about Linux
+
+## Day 15 (Saturday, 13-05-2023)
+### Ansible
+- continued ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible
+
 ---
 ### Finished courses:
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
