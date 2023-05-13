@@ -12,12 +12,11 @@ Additionaly, I'm a firefighter in Państwowa Straż Pożarna, where we work 24-h
 So, let's get started :)
 
 ### :yellow_circle: Day 1 (Saturday, 29-04-2023)
+**ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - user management**
+- exercises about users management in Linux (performed on Ubuntu running in Docker)
 **Git**
 - work with git (create remote repo and push commits)<br/>
 https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
-##
-**ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - user management**
-- exercises about users management in Linux (performed on Ubuntu running in Docker)
 
 ### :yellow_circle: Day 2 (Sunday, 30-04-2023) [Firefighter duty]
 **Docker**
@@ -58,13 +57,12 @@ run 3 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a 
 - read articles on redhat.com
 
 ### :yellow_circle: Day 12 (Wendesday, 10-05-2023)
-- create blog post titled "How did my adventure with Linux start?"<br />
-https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/<br/>
-##
 **Ansible**
 - "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski (other lessons)<br/>
 - ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible<br/>
-run 5 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a VM with Red Hat
+run 5 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a VM with Red Hat<br/><br/>
+- create blog post titled "How did my adventure with Linux start?"<br />
+https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/<br/>
 
 ### :yellow_circle: Day 13 (Thursday, 11-05-2023)
 **Ansible**
