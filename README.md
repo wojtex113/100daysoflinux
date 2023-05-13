@@ -12,11 +12,11 @@ Additionaly, I'm a firefighter in Państwowa Straż Pożarna, where we work 24-h
 So, let's get started :)
 
 ### :yellow_circle: Day 1 (Saturday, 29-04-2023)
-**ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - user management**
-- exercises about users management in Linux (performed on Ubuntu running in Docker)<br/><br/>
 **Git**
 - work with git (create remote repo and push commits)<br/>
-https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/
+https://wojst.pl/github-repozytoria-zdalne-i-pull-requesty-git/<br/><br/>
+**ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - user management**
+- exercises about users management in Linux (performed on Ubuntu running in Docker)<br/><br/>
 
 ### :yellow_circle: Day 2 (Sunday, 30-04-2023) [Firefighter duty]
 **Docker**
