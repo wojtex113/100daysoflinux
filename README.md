@@ -75,6 +75,9 @@ https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/<br/>
 **Ansible**
 - continued ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible
 
+### :yellow_circle: Day 16 (Sunday, 14-05-2023)
+- watch a film on YT from IT conference - "Vagrant a nauczanie informatyki"
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
