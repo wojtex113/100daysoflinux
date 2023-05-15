@@ -80,8 +80,8 @@ https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/<br/>
 
 ### :yellow_circle: Day 17 (Monday, 15-05-2023)
 **Ansible**
-- I finished the 'Ansible' section in the ebook '77 zadań dla adminów'. I used ChatGTP during this lab.<br/>
-The 'Docker' section I'll do later. All answers added to blog post:<br/>
+- I finished the 'Ansible' section in the ebook '77 zadań dla adminów'. I used ChatGTP during this lab.<br/><br/>
+The 'Docker' section will be done later. All answers added to blog post:<br/>
 https://wojst.pl/ebook-77-zadan-dla-adminow-odpowiedzi/
 
 ---
