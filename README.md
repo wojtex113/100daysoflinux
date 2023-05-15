@@ -11,6 +11,10 @@ Additionaly, I'm a firefighter in Państwowa Straż Pożarna, where we work 24-h
 
 So, let's get started :)
 
+--
+var ASL = course 'Administracja Serwerami Linux' by Grupa ADM
+--
+
 ### :yellow_circle: Day 1 (Saturday, 29-04-2023)
 **Git**
 - work with git (create remote repo and push commits)<br/>
@@ -82,7 +86,12 @@ https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/<br/>
 **Ansible**
 - I finished the 'Ansible' section in the ebook '77 zadań dla adminów'. I used ChatGTP during this lab.<br/><br/>
 The 'Docker' section will be done later. All answers added to blog post:<br/>
-https://wojst.pl/ebook-77-zadan-dla-adminow-odpowiedzi/
+https://wojst.pl/ebook-77-zadan-dla-adminow-odpowiedzi/<br/><br/>
+
+**OpenVPN [ASL] + pfSense**
+I installed an OpenVPN server on Red Hat host and an OpenVPN client on RHEL as well. Next, I added 2 pfSense VMs beetwen the VPN hosts. All VMs ran in VirtualBox. I configured an internal network between the 'LAN networks'. On pfSense I configured port forwarding to forward a port from the WAN to the LAN OpenVPN server. Below is a schema of the lab.<br /><br/>
+
+![Schema: OpenVPN + pfSense](openvpn-pfsense-schema.png)
 
 ---
 **Finished courses:**
