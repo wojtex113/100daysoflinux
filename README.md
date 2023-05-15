@@ -92,7 +92,7 @@ https://wojst.pl/ebook-77-zadan-dla-adminow-odpowiedzi/<br/><br/>
 **OpenVPN [ASL] + pfSense**<br/>
 I installed an OpenVPN server on Red Hat host and an OpenVPN client on RHEL as well. Next, I added 2 pfSense VMs beetwen the VPN hosts. All VMs ran in VirtualBox. I configured an internal network between the 'LAN networks'. On pfSense I configured port forwarding to forward a port from the WAN to the LAN OpenVPN server. Below is a schema of the lab.<br /><br/>
 
-![Schema: OpenVPN + pfSense](openvpn-pfsense-schema.png)
+![Schema: OpenVPN + pfSense](openvpn_pfsense-schema.png)
 
 ---
 **Finished courses:**
