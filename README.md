@@ -94,7 +94,7 @@ I installed an OpenVPN server on Red Hat host and an OpenVPN client on RHEL as w
 
 ![Schema: OpenVPN + pfSense](openvpn_pfsense-schema.png)<br/>
 
-**Docker**
+**Docker**<br/>
 I did 6 excercises from the 'Docker' section in the ebook '77 zadań dla adminów' late in the evening.
 
 
