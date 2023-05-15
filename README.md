@@ -11,8 +11,10 @@ Additionaly, I'm a firefighter in Państwowa Straż Pożarna, where we work 24-h
 
 So, let's get started :)
 
---
-var ASL = course 'Administracja Serwerami Linux' by Grupa ADM
+--<br/>
+var ASL = course 'Administracja Serwerami Linux' by Grupa ADM<br/>
+
+---
 
 ### :yellow_circle: Day 1 (Saturday, 29-04-2023)
 **Git**
