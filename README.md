@@ -98,11 +98,11 @@ I installed an OpenVPN server on Red Hat host and an OpenVPN client on RHEL as w
 I did 6 (from 11) excercises from the 'Docker' section in the ebook '77 zadań dla adminów' late in the evening.
 
 ### :yellow_circle: Day 18 (Thuesday, 16-05-2023)
-**Docker**
+**Docker**<br/>
 I did 1 excercise (completed 7 from 11) from the 'Docker' section.
 
-**Routing**
-I configured RHEL VM as router for another VM in VirtualBox. Below is schema of the lab. <br /><br/>
+**Routing**<br/>
+I configured an RHEL VM as a router for another VMs in VirtualBox. Below is the schema of the lab. <br /><br/>
 ![Schema: RHEL router](routing_rhel_router.jpg)<br/>
 Post on the blog:<br/>
 https://wojst.pl/linux-jako-router-na-podstawie-rhel/
