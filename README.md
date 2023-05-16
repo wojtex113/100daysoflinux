@@ -99,7 +99,7 @@ I did 6 (from 11) excercises from the 'Docker' section in the ebook '77 zadań d
 
 ### :yellow_circle: Day 18 (Thuesday, 16-05-2023)
 **Docker**<br/>
-I did 1 excercise (completed 7 from 11) from the 'Docker' section.<br/><br/>
+Finished 'Docker' section in the ebook.<br/><br/>
 
 **Routing [ASL]**<br/>
 I configured an RHEL VM as a router for another VMs in VirtualBox. Below is the schema of the lab.<br/><br/>
@@ -113,4 +113,6 @@ https://wojst.pl/linux-jako-router-na-podstawie-rhel/<br/>
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
 - "Ansible w godzinę" - Jakub ‘unknow’ Mrugalski
+
+- ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
 
