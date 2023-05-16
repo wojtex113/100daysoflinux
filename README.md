@@ -101,7 +101,7 @@ I did 6 (from 11) excercises from the 'Docker' section in the ebook '77 zadań d
 **Docker**<br/>
 I did 1 excercise (completed 7 from 11) from the 'Docker' section.<br/><br/>
 
-**Routing**<br/>
+**Routing [ASL]**<br/>
 I configured an RHEL VM as a router for another VMs in VirtualBox. Below is the schema of the lab.<br/><br/>
 
 ![Schema: RHEL router](routing_rhel_router.jpg)<br/>
