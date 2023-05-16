@@ -107,7 +107,8 @@ I configured an RHEL VM as a router for another VMs in VirtualBox. Below is the 
 ![Schema: RHEL router](routing_rhel_router.jpg)<br/>
 
 Post on the blog:<br/>
-https://wojst.pl/linux-jako-router-na-podstawie-rhel/
+https://wojst.pl/linux-jako-router-na-podstawie-rhel/<br/>
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
