@@ -86,7 +86,7 @@ https://wojst.pl/jak-zaczela-sie-moja-przygoda-z-linuxem/<br/>
 ### :yellow_circle: Day 17 (Monday, 15-05-2023)
 **Ansible**
 - I finished the 'Ansible' section in the ebook '77 zadań dla adminów'. I used ChatGTP during this lab.<br/><br/>
-The 'Docker' section will be done later. All answers added to blog post:<br/>
+All answers added to blog post:<br/>
 https://wojst.pl/ebook-77-zadan-dla-adminow-odpowiedzi/<br/><br/>
 
 **OpenVPN [ASL] + pfSense**<br/>
@@ -108,6 +108,15 @@ I configured an RHEL VM as a router for another VMs in VirtualBox. Below is the 
 
 Post on the blog:<br/>
 https://wojst.pl/linux-jako-router-na-podstawie-rhel/<br/>
+
+### :yellow_circle: Day 19 (Wendesday, 17-05-2023)
+**Disk management [ASL]**
+Red Hat lab in VirtualBox: add disk to VM, create / remove partition (fdisk), mount created partition (mount, umount, lsblk, /etc/fstab), LVM management.<br />
+It wasn't covered in the course, but I wanted to relab RAID (from Red Hat's official documentation): add 2 disks to a VM, create RAID1, simulate failed disk (remove second disk from VM), add new disk and attempting to repair the RAID.
+
+**Proxmox - install and add to jFrog**
+I intend to create a project with a lot of VMs (HA with KeepAlived, nginx + 2 versions of PHP as a web serwer, Redis to storing sessions, NFS for storing web files, MariaDB servers with replication, pfsense as gateway to this subnet, monitoring, FTP to upload web files etc).<br/>
+For this purpose, I have installed Proxmox on an old computer. To have access from flat I connected it to jFrog.
 
 ---
 **Finished courses:**
