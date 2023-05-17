@@ -116,7 +116,7 @@ It wasn't covered in the course, but I wanted to relab RAID (from Red Hat's offi
 
 **Proxmox - install and add to jFrog**<br/>
 I intend to create a project with a lot of VMs (HA with KeepAlived, nginx + 2 versions of PHP as a web serwer, Redis to storing sessions, NFS for storing web files, MariaDB servers with replication, pfsense as gateway to this subnet, monitoring, FTP to upload web files etc).<br/>
-For this purpose, I have installed Proxmox on an old computer. To have access from flat I connected it to jFrog.
+For this purpose, I have installed Proxmox on an personal computer. To have access from flat I connected it to jFrog. In the next step I installed Debian and Rocky Linux in VMs, which were then converted to templates. I also installed pfSense in a VM and created an internal network.
 
 ---
 **Finished courses:**
