@@ -118,6 +118,10 @@ It wasn't covered in the course, but I wanted to relab RAID (from Red Hat's offi
 I intend to create a project with a lot of VMs (HA with KeepAlived, nginx + 2 versions of PHP as a web serwer, Redis to storing sessions, NFS for storing web files, MariaDB servers with replication, pfsense as gateway to this subnet, monitoring, FTP to upload web files etc).<br/>
 For this purpose, I have installed Proxmox on an personal computer. To have access from flat I connected it to jFrog. In the next step I installed Debian and Rocky Linux in VMs, which were then converted to templates. I also installed pfSense in a VM and created an internal network.
 
+### :yellow_circle: Day 20 (Thursday, 18-05-2023)
+**Proxmox Lab**<br/>
+Created and configured 2 VMs (from templates) for MariaDB servers with replications: master using RockyLinux, slave using Debian.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
