@@ -120,7 +120,9 @@ For this purpose, I have installed Proxmox on an personal computer. To have acce
 
 ### :yellow_circle: Day 20 (Thursday, 18-05-2023)
 **Proxmox Lab**<br/>
-Created and configured 2 VMs (from templates) for MariaDB servers with replications: master using RockyLinux, slave using Debian.
+Created and configured 2 VMs (from templates) for MariaDB servers with replications: master using RockyLinux, slave using Debian.<br/><br/>
+On the blog I created a post in which I describe the progress of work on the project. This post will be updated as work progresses.<br/>
+https://wojst.pl/webhosting-lab-w-oparciu-o-proxmox/
 
 ---
 **Finished courses:**
