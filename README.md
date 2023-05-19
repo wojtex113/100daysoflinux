@@ -124,6 +124,14 @@ Created and configured 2 VMs (from templates) for MariaDB servers with replicati
 On the blog I created a post in which I describe the progress of work on the project. This post will be updated as work progresses.<br/>
 https://wojst.pl/webhosting-lab-w-oparciu-o-proxmox/
 
+### :yellow_circle: Day 21 (Friday, 19-05-2023)
+**[ASL]**<br/>
+- management of services (systemctl, create own service)<br/>
+- syslogs
+
+**Proxmox Lab**<br/>
+Created a NFS server to store web files (based on RockyLinux). In addition, I added two disks that I connected with RAID (mirroring) to this VM. On them I will store the data made available by NFS.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
