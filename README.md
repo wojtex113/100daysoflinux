@@ -132,6 +132,10 @@ https://wojst.pl/webhosting-lab-w-oparciu-o-proxmox/
 **Proxmox Lab**<br/>
 Created a NFS server to store web files (based on RockyLinux). In addition, I added two disks that I connected with RAID (mirroring) to this VM. On them I will store the data made available by NFS.
 
+### :yellow_circle: Day 22 (Saturday, 20-05-2023)
+**[ASL]**<br/>
+Management logs with journalctl.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
