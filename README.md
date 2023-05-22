@@ -140,7 +140,7 @@ Management logs with journalctl.
 - watch a film on YT: "DevOps - kim jest i czym się zajmuje?"
 
 ### :yellow_circle: Day 24 (Monday, 21-05-2023) 
-**Samba [ASL]**
+**Samba [ASL]**<br/>
 Samba server installation and configuration, creating new shares.<br/><br/>
 Outside of the course, I set up Samba as a domain controller.
 
