@@ -136,6 +136,14 @@ Created a NFS server to store web files (based on RockyLinux). In addition, I ad
 **[ASL]**<br/>
 Management logs with journalctl.
 
+### :yellow_circle: Day 23 (Sunday, 21-05-2023) [Firefighter duty]
+- watch a film on YT: "DevOps - kim jest i czym się zajmuje?"
+
+### :yellow_circle: Day 24 (Monday, 21-05-2023) 
+**Samba [ASL]**
+Samba server installation and configuration, creating new shares.<br/><br/>
+Outside of the course, I set up Samba as a domain controller.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
