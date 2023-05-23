@@ -142,7 +142,14 @@ Management logs with journalctl.
 ### :yellow_circle: Day 24 (Monday, 21-05-2023) 
 **Samba [ASL]**<br/>
 Samba server installation and configuration, creating new shares.<br/><br/>
-Outside of the course, I set up Samba as a domain controller.
+Outside of the course, I set up Samba as a domain controller with roaming profiles.
+
+### :yellow_circle: Day 25 (Thuesday, 21-05-2023) 
+**SELinux [ASL]**<br/>
+An introdution to SELinux.<br/><br/>
+
+**Proxmox Lab**<br/>
+I installed nginx on two VMs (Debian and RockyLinux) and mounted NFS share to /var/www/html on both servers. On pfSense, I forwarded SSH ports to manage all servers from the outside.
 
 ---
 **Finished courses:**
