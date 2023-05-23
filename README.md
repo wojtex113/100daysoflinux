@@ -139,12 +139,12 @@ Management logs with journalctl.
 ### :yellow_circle: Day 23 (Sunday, 21-05-2023) [Firefighter duty]
 - watch a film on YT: "DevOps - kim jest i czym się zajmuje?"
 
-### :yellow_circle: Day 24 (Monday, 21-05-2023) 
+### :yellow_circle: Day 24 (Monday, 22-05-2023) 
 **Samba [ASL]**<br/>
 Samba server installation and configuration, creating new shares.<br/><br/>
 Outside of the course, I set up Samba as a domain controller with roaming profiles.
 
-### :yellow_circle: Day 25 (Thuesday, 21-05-2023) 
+### :yellow_circle: Day 25 (Thuesday, 23-05-2023) 
 **SELinux [ASL]**<br/>
 An introdution to SELinux.<br/><br/>
 
