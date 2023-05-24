@@ -151,6 +151,10 @@ An introdution to SELinux.<br/><br/>
 **Proxmox Lab**<br/>
 I installed nginx on two VMs (Debian and RockyLinux) and mounted NFS share to /var/www/html on both servers. On pfSense, I forwarded SSH ports to manage all servers from the outside.
 
+### :yellow_circle: Day 26 (Wendesday, 24-05-2023) [Firefighter duty]
+**Proxmox Lab**<br/>
+I installed two versions of php (7.4 and 8.1) as fpm on both web servers. Also created NFS share with vhost configurations and mount as RO on web servers.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
