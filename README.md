@@ -153,7 +153,12 @@ I installed nginx on two VMs (Debian and RockyLinux) and mounted NFS share to /v
 
 ### :yellow_circle: Day 26 (Wendesday, 24-05-2023) [Firefighter duty]
 **Proxmox Lab**<br/>
-I installed two versions of php (7.4 and 8.1) as fpm on both web servers. Also created NFS share with vhost configurations and mount as RO on web servers.
+I installed two versions of php (7.4 and 8.1) as fpm on both web servers. Additionaly, I created NFS share with vhost configurations and mount as RO on web servers.
+
+### :yellow_circle: Day 27 (Thursday, 25-05-2023) 
+**Proxmox Lab**<br/>
+Installation and configuration of SFTP serwer (proftpd).<br/>
+I have installed proftpd and disabled access for anonymous. Additionaly, I have added local users (as homedir directory from NFS mounted share, shell false). The servers has been configured to work as SFTP only. I have modified the configuration to allow only users from the ftp_users group (to which I added both users).
 
 ---
 **Finished courses:**
