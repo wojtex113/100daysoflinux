@@ -160,6 +160,11 @@ I installed two versions of php (7.4 and 8.1) as fpm on both web servers. Additi
 Installation and configuration of SFTP serwer (proftpd).<br/>
 I have installed proftpd and disabled access for anonymous. Additionaly, I have added local users (as homedir directory from NFS mounted share, shell false). The servers has been configured to work as SFTP only. I have modified the configuration to allow only users from the ftp_users group (to which I added both users).
 
+### :yellow_circle: Day 28 (Friday, 26-05-2023) 
+**Hardening systemd**<br/><br/>
+**Proxmox Lab**<br/>
+Adding a service in which a Python script works to change the owner of new files uploaded via FTP. I explained this in a blog post.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
