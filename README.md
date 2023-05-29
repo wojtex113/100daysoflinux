@@ -5,7 +5,7 @@ I write my thoughts, tips and another IT notes on the blog, which can be found a
 
 Today (29-04-2023) I've started the #100DaysOfLinux challenge. My goal is to finish all courses I have purchased but haven't yet completed and complete many labs during this time.
 
-I aspire to be a Linux Administrator, which is my main goal, and I'm also considering the possibility of working in Dev/Ops.
+I aspire to be a Linux Administrator, which is my main goal, and I'm also considering the possibility of working in DevOps or SysOps.
 
 Additionaly, I'm a firefighter in Państwowa Straż Pożarna, where we work 24-hour shifts every three days. During my shifts I will try found a few minutes to read or watch something related to this challenge.
 
@@ -172,6 +172,10 @@ Theoretical introduction to the ProxySQL
 ### :yellow_circle: Day 30 (Sunday, 28-05-2023) 
 **ProxySQL**<br/>
 I watched on YouTube films about 'how ProxySQL works'.
+
+### :yellow_circle: Day 31 (Monday, 29-05-2023) 
+**Proxmox Lab**<br/>
+I installed ProxySQL on a VM with Debian and added both database servers to it. Next, I uploaded files from the backup of my main webpage via FTP, restored the database from a copy and started cloning of wojst.pl. I also had to install php-mysqli.
 
 ---
 **Finished courses:**
