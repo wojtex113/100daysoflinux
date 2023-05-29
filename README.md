@@ -166,11 +166,11 @@ I have installed proftpd and disabled access for anonymous. Additionaly, I have 
 Adding a service in which a Python script works to change the owner of new files uploaded via FTP. I explained this in a blog post.
 
 ### :yellow_circle: Day 29 (Saturday, 27-05-2023) [Firefighter duty]
-**ProxySQL**
+**ProxySQL**<br/>
 Theoretical introduction to the ProxySQL
 
 ### :yellow_circle: Day 30 (Sunday, 28-05-2023) 
-**ProxySQL**
+**ProxySQL**<br/>
 I watched on YouTube films about 'how ProxySQL works'.
 
 ---
