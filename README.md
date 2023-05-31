@@ -177,6 +177,10 @@ I watched on YouTube films about 'how ProxySQL works'.
 **Proxmox Lab**<br/>
 I installed ProxySQL on a VM with Debian and added both database servers to it. Next, I uploaded files from the backup of my main webpage via FTP, restored the database from a copy and started cloning of wojst.pl. I also had to install php-mysqli.
 
+### :yellow_circle: Day 32 (Thuesday, 30-05-2023) 
+**Security + backup [ASL]**<br/>
+This module contains penetration tests (with Kali Linux) and creating backup with rsync.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
