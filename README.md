@@ -181,12 +181,16 @@ I installed ProxySQL on a VM with Debian and added both database servers to it. 
 **Security + backup [ASL]**<br/>
 This module contains penetration tests (with Kali Linux) and creating backup with rsync.
 
-### :yellow_circle: Day 33 (Wendesday, 30-05-2023) 
+### :yellow_circle: Day 33 (Wendesday, 31-05-2023) 
 **Troubleshooting [ASL]**<br/>
 Introduction to troubleshooting.<br/><br/>
 
 **Proxmox Lab**<br/>
 Started installation HAProxy with keepalived on two VMs (Debian+Rocky).
+
+### :yellow_circle: Day 34 (Thursday, 01-06-2023) 
+**Proxmox Lab**<br/>
+I did troubleshoot yesterday's implementation of HAProxy - I typed incorect IP addresses of web servers.
 
 ---
 **Finished courses:**
