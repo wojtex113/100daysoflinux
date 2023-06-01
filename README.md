@@ -190,7 +190,10 @@ Started installation HAProxy with keepalived on two VMs (Debian+Rocky).
 
 ### :yellow_circle: Day 34 (Thursday, 01-06-2023) 
 **Proxmox Lab**<br/>
-I did troubleshoot yesterday's implementation of HAProxy - I typed incorect IP addresses of web servers.
+I did troubleshoot yesterday's implementation of HAProxy - I typed incorect IP addresses of web servers.<br/><br/>
+
+**Troubleshooting + bash scripts [ASL]**<br/>
+Continuation of troubleshooting - monitoring. Next, there was an introduction to scripting with bash (only as a reminder).<br/><br/>
 
 ---
 **Finished courses:**
