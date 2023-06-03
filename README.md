@@ -195,6 +195,10 @@ I did troubleshoot yesterday's implementation of HAProxy - I typed incorect IP a
 **Troubleshooting + bash scripts [ASL]**<br/>
 Continuation of troubleshooting - monitoring. Next, there was an introduction to scripting with bash (only as a reminder).<br/><br/>
 
+### :yellow_circle: Day 35 (Friday, 02-06-2023) 
+**Prometheus + Grafana**<br/>
+I watched a video on YT about infrastructure monitoring using Prometheus and grafana.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
