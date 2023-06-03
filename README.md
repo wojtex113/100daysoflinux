@@ -177,7 +177,7 @@ I watched on YouTube films about 'how ProxySQL works'.
 **Proxmox Lab**<br/>
 I installed ProxySQL on a VM with Debian and added both database servers to it. Next, I uploaded files from the backup of my main webpage via FTP, restored the database from a copy and started cloning of wojst.pl. I also had to install php-mysqli.
 
-### :yellow_circle: Day 32 (Thuesday, 30-05-2023) 
+### :yellow_circle: Day 32 (Thuesday, 30-05-2023) [Firefighter duty]
 **Security + backup [ASL]**<br/>
 This module contains penetration tests (with Kali Linux) and creating backup with rsync.
 
@@ -195,7 +195,7 @@ I did troubleshoot yesterday's implementation of HAProxy - I typed incorect IP a
 **Troubleshooting + bash scripts [ASL]**<br/>
 Continuation of troubleshooting - monitoring. Next, there was an introduction to scripting with bash (only as a reminder).<br/><br/>
 
-### :yellow_circle: Day 35 (Friday, 02-06-2023) 
+### :yellow_circle: Day 35 (Friday, 02-06-2023) [Firefighter duty]
 **Prometheus + Grafana**<br/>
 I watched a video on YT about infrastructure monitoring using Prometheus and grafana.
 
