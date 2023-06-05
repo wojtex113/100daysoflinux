@@ -206,7 +206,7 @@ Video on YT: Ciekawe podejście do integracji technologii chmurowych - Piotr Pyc
 Read news and articles about Linux.
 
 ### :yellow_circle: Day 38 (Monday, 05-06-2023) [Firefighter duty]
-**Syslogs [ASL]**
+**Syslogs [ASL]**<br/>
 Install and configure log server.
 
 ---
