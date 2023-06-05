@@ -199,6 +199,16 @@ Continuation of troubleshooting - monitoring. Next, there was an introduction to
 **Prometheus + Grafana**<br/>
 I watched a video on YT about infrastructure monitoring using Prometheus and grafana.
 
+### :yellow_circle: Day 36 (Saturday, 03-06-2023)
+Video on YT: Ciekawe podejście do integracji technologii chmurowych - Piotr Pyciński
+
+### :yellow_circle: Day 37 (Sunday, 04-06-2023)
+Read news and articles about Linux.
+
+### :yellow_circle: Day 38 (Monday, 05-06-2023) [Firefighter duty]
+**Syslogs [ASL]**
+Install and configure log server.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
