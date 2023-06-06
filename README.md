@@ -206,8 +206,15 @@ Video on YT: Ciekawe podejście do integracji technologii chmurowych - Piotr Pyc
 Read news and articles about Linux.
 
 ### :yellow_circle: Day 38 (Monday, 05-06-2023) [Firefighter duty]
-**Syslogs [ASL]**<br/>
+**Rsyslog [ASL]**<br/>
 Install and configure log server.
+
+### :yellow_circle: Day 39 (Thuesday, 06-06-2023) 
+**Troubleshooting [ASL]**<br/>
+- test hard disk and memory<br/>
+- DRP<br/>
+- How to troubleshoot Linux problems (using the example of zabbix_agent)?<br/>
+
 
 ---
 **Finished courses:**
