@@ -213,8 +213,11 @@ Install and configure log server.
 **Troubleshooting [ASL]**<br/>
 - test hard disk and memory<br/>
 - DRP<br/>
-- How to troubleshoot Linux problems (using the example of zabbix_agent)?<br/>
+- How to troubleshoot Linux problems (using the example of zabbix_agent)?
 
+### :yellow_circle: Day 40 (Wendesday, 07-06-2023) 
+**Troubleshooting [ASL]**<br/>
+In th 10th module's homework I troubleshooted problems on a VM with CentOS - IP configuration, SSH service and Apache.
 
 ---
 **Finished courses:**
