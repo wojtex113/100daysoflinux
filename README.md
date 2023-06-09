@@ -223,7 +223,14 @@ In th 10th module's homework I troubleshooted problems on a VM with CentOS - IP 
 **Bash scripting [ASL]**<br/>
 Variables in bash scripts.<br/><br/>
 
-Review of articles and news
+Review of articles and news.
+
+### :yellow_circle: Day 42 (Friday, 09-06-2023) 
+**Automatization [ASL]**<br/>
+- loop IF, functions in bash script<br/>
+- introdution to Ansible <br/><br/>
+
+I wrote an e-book about bash scripting in 2020: https://wojst.pl/wp-content/uploads/2023/01/BONUS-bash_podstawy.pdf
 
 ---
 **Finished courses:**
