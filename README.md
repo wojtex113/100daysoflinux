@@ -219,6 +219,12 @@ Install and configure log server.
 **Troubleshooting [ASL]**<br/>
 In th 10th module's homework I troubleshooted problems on a VM with CentOS - IP configuration, SSH service and Apache.
 
+### :yellow_circle: Day 41 (Thursday, 08-06-2023) 
+**Bash scripting [ASL]**<br/>
+Variables in bash scripts.<br/><br/>
+
+Review of articles and news
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
