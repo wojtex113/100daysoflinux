@@ -13,6 +13,7 @@ So, let's get started :)
 
 --<br/>
 var ASL = course 'Administracja Serwerami Linux' by Grupa ADM<br/>
+var ADL = course 'Akademia Debugowania Linuksa' by Jakub ‘unknow’ Mrugalski 
 
 ---
 
@@ -232,10 +233,17 @@ Review of articles and news.
 
 I wrote an e-book about bash scripting in 2020: https://wojst.pl/wp-content/uploads/2023/01/BONUS-bash_podstawy.pdf
 
+### :yellow_circle: Day 43 (Saturday, 10-06-2023) 
+Today I finished a course **"Administracja Serwerami Linux"** by Grupa ADM.<br/><br/>
+
+**Strace [ADL]**<br/>
+Introduction to the application's diagnostics with strace.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
 - "Ansible w godzinę" - Jakub ‘unknow’ Mrugalski
+- "Administracja Serwerami Linux" - Grupa ADM
 
 - ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
 
