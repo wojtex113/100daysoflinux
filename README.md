@@ -239,6 +239,9 @@ Today I finished a course **"Administracja Serwerami Linux"** by Grupa ADM.<br/>
 **Strace [ADL]**<br/>
 Introduction to the application's diagnostics with strace.
 
+### :yellow_circle: Day 44 (Sunday, 11-06-2023) [Firefighter duty]
+Review of the job interviewer's questions.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
