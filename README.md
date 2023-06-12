@@ -242,6 +242,10 @@ Introduction to the application's diagnostics with strace.
 ### :yellow_circle: Day 44 (Sunday, 11-06-2023) [Firefighter duty]
 Review of the job interviewer's questions.
 
+### :yellow_circle: Day 45 (Monday, 12-06-2023)
+**Strace [ADL]**<br/>
+Debugging nginx and apache2 with strace.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
