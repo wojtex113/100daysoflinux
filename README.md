@@ -14,6 +14,7 @@ So, let's get started :)
 --<br/>
 var ASL = course 'Administracja Serwerami Linux' by Grupa ADM<br/>
 var ADL = course 'Akademia Debugowania Linuksa' by Jakub ‘unknow’ Mrugalski 
+var Proxmox Lab = https://wojst.pl/webhosting-lab-w-oparciu-o-proxmox/
 
 ---
 
@@ -248,7 +249,7 @@ Debugging nginx and apache2 with strace.
 
 ### :yellow_circle: Day 46 (Thuesday, 13-06-2023)
 **[ADL]**<br/>
-Debugging cron and docker.<br/><br/>
+Debugging cron and Docker.<br/><br/>
 
 **Proxmox Lab**<br/>
 On Proxmox CT, I installed Docker and created container inside it with phpMyAdmin (which is linked to ProxySQL). Next, on the web servers, I added a proxy pass from the domain/phpmyadmin to the container.
