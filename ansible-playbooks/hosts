@@ -1,0 +1,17 @@
+[web]
+nginx-1	ansible_host=192.168.100.51
+nginx-2 ansible_host=192.168.100.52
+
+[db]
+mariadb-slave ansible_host=192.168.100.10
+mariadb-master ansible_host=192.168.100.11
+
+[ha]
+proxysql ansible_host=192.168.100.15
+haproxy-1 ansible_host=192.168.100.5
+haproxy-2 ansible_host=192.168.100.6
+
+[srv]
+nfs ansible_host=192.168.100.30
+ftp ansible_host=192.168.100.110
+ansible ansible_connection=local
