@@ -1,0 +1,11 @@
+---
+- name: Checks NFS mounts on we
+  hosts: web
+  tasks:
+    - name: Check 
+      command:  df -h
+      register: mounts
+    - name: Display df
+      debug:
+        msg: "{{ mounts.stdout }}"
+

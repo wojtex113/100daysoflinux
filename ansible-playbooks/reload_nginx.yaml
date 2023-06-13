@@ -1,0 +1,7 @@
+---
+- name: Reload nginx after changes
+  hosts: web
+  tasks:
+    - name: Check and reload nginx
+      shell:  nginx -t && nginx -s reload
+

@@ -1,0 +1,9 @@
+---
+- name: Update oh-my-zsh
+  hosts: all
+  become: yes
+  become_user: root
+  become_method: su
+  tasks:
+    - name: Update
+      shell: cd ~/.oh-my-zsh/tools; ./upgrade.sh 
