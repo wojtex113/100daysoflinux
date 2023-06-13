@@ -13,7 +13,7 @@ So, let's get started :)
 
 --<br/>
 var ASL = course 'Administracja Serwerami Linux' by Grupa ADM<br/>
-var ADL = course 'Akademia Debugowania Linuksa' by Jakub ‘unknow’ Mrugalski 
+var ADL = course 'Akademia Debugowania Linuksa' by Jakub ‘unknow’ Mrugalski <br/>
 var Proxmox Lab = https://wojst.pl/webhosting-lab-w-oparciu-o-proxmox/
 
 ---
