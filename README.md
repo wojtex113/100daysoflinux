@@ -254,6 +254,9 @@ Debugging cron and Docker.<br/><br/>
 **Proxmox Lab**<br/>
 On Proxmox CT, I installed Docker and created container inside it with phpMyAdmin (which is linked to ProxySQL). Next, on the web servers, I added a proxy pass from the domain/phpmyadmin to the container.
 
+### :yellow_circle: Day 47 (Wendesday, 14-06-2023)
+Repair of a WordPress-based website - virus removal, access restoration and finally protection.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
