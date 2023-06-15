@@ -257,6 +257,9 @@ On Proxmox CT, I installed Docker and created container inside it with phpMyAdmi
 ### :yellow_circle: Day 47 (Wendesday, 14-06-2023)
 Repair of a WordPress-based website - virus removal, access restoration and finally protection.
 
+### :yellow_circle: Day 48 (Thursday, 15-06-2023)
+Video on YT about web UI for Ansible.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
