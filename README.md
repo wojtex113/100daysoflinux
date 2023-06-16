@@ -260,6 +260,9 @@ Repair of a WordPress-based website - virus removal, access restoration and fina
 ### :yellow_circle: Day 48 (Thursday, 15-06-2023)
 Video on YT about web UI for Ansible.
 
+### :yellow_circle: Day 49 (Friday, 16-06-2023)
+Running a web UI for Ansible as a Docker container - as seen in yesterday's video.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski

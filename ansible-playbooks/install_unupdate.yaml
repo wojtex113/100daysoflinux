@@ -1,0 +1,39 @@
+---
+- name: Installation and configuration unattended upgrades
+  hosts: all
+  tasks:
+    - name: apt update && apt upgrade
+      apt:
+        update_cache: true
+        upgrade: yes
+      when: ansible_facts['os_family'] == 'Debian'
+    - name: Install packages
+      apt:
+        name: unattended-upgrades
+        state: present
+        update_cache: true
+      when: ansible_facts['os_family'] == 'Debian'
+    - name: configure unattended-upgrades
+      shell: echo "unattended-upgrades unattended-upgrades/enable_auto_updates boolean true" | debconf-set-selections
+      when: ansible_facts['os_family'] == 'Debian'
+    - name: apply unattended-upgrades
+      shell: dpkg-reconfigure -f noninteractive --priority=low unattended-upgrades
+      when: ansible_facts['os_family'] == 'Debian'
+  # roles:
+  #   - role: hifis.unattended_upgrades
+  #     unattended_origins_patterns:
+  #      - 'origin=Debian,codename=${distro_codename},label=Debian-Security' 
+  #      - 'o=Debian,codename=${distro_codename},label=Debian'
+  #      - 'o=Debian,codename=${distro_codename},a=proposed-updates'
+  #     when: ansible_facts['os_family'] == 'Debian'
+  # tasks:
+  #   - name: test
+  #     debug:
+  #       msg: "Testowy task"
+    - name: Enable updates
+      lineinfile:
+         path: /etc/apt/apt.conf.d/50unattented-upgrades
+         regexp: '^\/\/      \"origin\=Debian\,codename\=\$\{distro\_codename\}\-updates'
+         line: '"origin=Debian,codename=${distro_codename}-updates";'
+         tags: enable
+#//      "origin=Debian,codename=${distro_codename}-proposed-updates";
