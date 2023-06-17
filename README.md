@@ -263,6 +263,9 @@ Video on YT about web UI for Ansible.
 ### :yellow_circle: Day 49 (Friday, 16-06-2023)
 Running a web UI for Ansible as a Docker container - as seen in yesterday's video.
 
+### :yellow_circle: Day 50 (Saturday, 17-06-2023) [Firefighter duty]
+Configuration an Ansible Semaphore.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
