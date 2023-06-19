@@ -266,6 +266,9 @@ Running a web UI for Ansible as a Docker container - as seen in yesterday's vide
 ### :yellow_circle: Day 50 (Saturday, 17-06-2023) [Firefighter duty]
 Configuration an Ansible Semaphore.
 
+### :yellow_circle: Day 51 (Sunday, 18-06-2023)
+I watched videos on YT about working as a sysadmin and about Cloudflare.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
