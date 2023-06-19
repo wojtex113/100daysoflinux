@@ -269,6 +269,14 @@ Configuration an Ansible Semaphore.
 ### :yellow_circle: Day 51 (Sunday, 18-06-2023)
 I watched videos on YT about working as a sysadmin and about Cloudflare.
 
+### :yellow_circle: Day 52 (Monday, 19-06-2023)
+**[ADL]**<br/>
+A review of the process content in the /proc directory and an introduction to the 'Out of memory killer' mechanism.
+
+**Lab**<br/>
+- Create a local environment in VirtualBox to test Ansible's playbooks before committing it to the repo.
+- Create an Ansible playbook for the installation and configuration unattended updates on all VMs.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski

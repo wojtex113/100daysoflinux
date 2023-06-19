@@ -13,10 +13,10 @@
         state: present
         update_cache: true
       when: ansible_facts['os_family'] == 'Debian'
-    - name: configure unattended-upgrades
+    - name: Configure unattended-upgrades
       shell: echo "unattended-upgrades unattended-upgrades/enable_auto_updates boolean true" | debconf-set-selections
       when: ansible_facts['os_family'] == 'Debian'
-    - name: apply unattended-upgrades
+    - name: Apply unattended-upgrades
       shell: dpkg-reconfigure -f noninteractive --priority=low unattended-upgrades
       when: ansible_facts['os_family'] == 'Debian'
   # roles:
@@ -26,7 +26,7 @@
   #      - 'o=Debian,codename=${distro_codename},label=Debian'
   #      - 'o=Debian,codename=${distro_codename},a=proposed-updates'
   #     when: ansible_facts['os_family'] == 'Debian'
-  # tasks:
+  # tasks:d
   #   - name: test
   #     debug:
   #       msg: "Testowy task"
