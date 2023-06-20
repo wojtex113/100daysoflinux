@@ -281,8 +281,10 @@ A review of the process content in the /proc directory and an introduction to th
 **[ADL]**<br/>
 - debugging a bash scripts,<br/>
 - compile and install programs from source,<br/>
-- recovery mysqld root password<br/>
+- recovery mysqld root password<br/><br/>
 
+**Proxmox Lab**<br/>
+Create an Ansible playbook for the installation and configuration fail2ban - blocks sshd.
 
 ---
 **Finished courses:**
