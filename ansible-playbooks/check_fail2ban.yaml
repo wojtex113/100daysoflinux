@@ -1,0 +1,18 @@
+---
+- name: Check fail2ban status
+  hosts: all 
+  tasks:
+  - name: Fail2ban status
+    shell: fail2ban-client status
+    register: status
+  - name: Fail2ban ssh status 
+    shell: fail2ban-client status sshd
+    register: sshd
+
+  - name: Display fail2ban status
+    debug:
+      msg: "{{ status.stdout }}"
+
+  - name: Display fail2ban sshd status
+    debug:
+      msg: "{{ sshd.stdout }}"

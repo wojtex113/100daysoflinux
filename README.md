@@ -277,6 +277,13 @@ A review of the process content in the /proc directory and an introduction to th
 - Create a local environment in VirtualBox to test Ansible's playbooks before committing it to the repo.
 - Create an Ansible playbook for the installation and configuration unattended updates on all VMs.
 
+### :yellow_circle: Day 53 (Thuesday, 20-06-2023)
+**[ADL]**<br/>
+- debugging a bash scripts,<br/>
+- compile and install programs from source,<br/>
+- recovery mysqld root password<br/>
+
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
