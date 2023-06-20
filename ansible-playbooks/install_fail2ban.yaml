@@ -9,6 +9,13 @@
       state: latest
     when: ansible_facts['os_family'] == 'Debian'
 
+  - name: Install iptables on Debian
+    apt:
+      update_cache: true
+      name: iptables
+      state: latest
+    when: ansible_facts['os_family'] == 'Debian'
+
   - name: Optional - Install EpelRelease on RockyLinux
     yum:  
       name: epel-release
