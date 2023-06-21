@@ -286,6 +286,10 @@ A review of the process content in the /proc directory and an introduction to th
 **Proxmox Lab**<br/>
 Create an Ansible playbook for the installation and configuration fail2ban - blocks sshd.
 
+### :yellow_circle: Day 54 (Thursday, 21-06-2023)
+**[ADL]**<br/>
+Apache performance tuning - configurate MPM.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
