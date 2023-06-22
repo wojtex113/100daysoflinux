@@ -286,9 +286,17 @@ A review of the process content in the /proc directory and an introduction to th
 **Proxmox Lab**<br/>
 Create an Ansible playbook for the installation and configuration fail2ban - blocks sshd.
 
-### :yellow_circle: Day 54 (Thursday, 21-06-2023)
+### :yellow_circle: Day 54 (Wendesday, 21-06-2023)
 **[ADL]**<br/>
 Apache performance tuning - configurate MPM.
+
+### :yellow_circle: Day 55 (Thursday, 22-06-2023)
+**[ADL]**<br/>
+- problems with ssh connections<br/>
+- problems with disk space<br/><br/>
+
+**Proxmox Lab**<br/>
+I instaledd Redis on VM with RockyLinux.
 
 ---
 **Finished courses:**
