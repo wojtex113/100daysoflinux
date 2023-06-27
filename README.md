@@ -311,6 +311,12 @@ Overview of ideas for lab projects
 **[ADL]**<br/>
 Disk management: copy the partition layout on second disk
 
+### :yellow_circle: Day 60 (Thuesday, 27-06-2023)
+**Proxmox Lab**<br/>
+- reconfigure backups of VMs (keep the last one, delete the backup 'clean_os'),<br/>
+- add Redis VM to an Ansible Semaphore,<br/>
+- install and configure Redis WordPress plugin
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
