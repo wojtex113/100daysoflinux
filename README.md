@@ -296,7 +296,20 @@ Apache performance tuning - configurate MPM.
 - problems with disk space<br/><br/>
 
 **Proxmox Lab**<br/>
-I instaledd Redis on VM with RockyLinux.
+I installed Redis on VM with RockyLinux.
+
+### :yellow_circle: Day 56 (Friday, 23-06-2023) [Firefighter duty]
+Video on YT: Linux Interview Questions nad Answers
+
+### :yellow_circle: Day 57 (Saturday, 24-06-2023)
+Review news about Linux - It's FOSS news.
+
+### :yellow_circle: Day 58 (Sunday, 25-06-2023)
+Overview of ideas for lab projects
+
+### :yellow_circle: Day 59 (Monday, 26-06-2023) [Firefighter duty]
+**[ADL]**<br/>
+Disk management: copy the partition layout on second disk
 
 ---
 **Finished courses:**
