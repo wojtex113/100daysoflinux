@@ -317,6 +317,10 @@ Disk management: copy the partition layout on second disk
 - add Redis VM to an Ansible Semaphore,<br/>
 - install and configure Redis WordPress plugin
 
+### :yellow_circle: Day 61 (Wendesday, 28-06-2023)
+**Proxmox Lab**<br/>
+I've created an Ansible playbook that set up a website environment (including database, user, vhost configuration, etc.)
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
