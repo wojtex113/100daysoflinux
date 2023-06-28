@@ -1,0 +1,119 @@
+---
+- name: Configure new client
+  hosts: all
+  vars: # CHANGE ONLY THIS VARIABLES
+    db_ud: 'user1' # database username and database name
+    domain: 'user1.com'
+ 
+  tasks:
+  # DB #
+    - name: Create database
+      mysql_db: 
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        name: "{{ db_ud }}"
+        state: present 
+      when: inventory_hostname == 'mariadb-master'
+        
+    - name: Create mysql user and generate password
+      mysql_user:
+        login_unix_socket: /var/run/mysqld/mysqld.sock
+        name: "{{ db_ud }}"
+        password: "{{ lookup('ansible.builtin.password', '/tmp/passwordfile', length=8, chars=['digits']) }}"
+        priv: "{{ db_ud }}.*:ALL"
+        host: "192.168.100.15"
+        state: present
+        update_password: on_create
+      when: inventory_hostname == 'mariadb-master'
+
+
+    - name: Display password file
+      debug:
+        msg: "{{ lookup('ansible.builtin.file', '/tmp/passwordfile') }}"
+      register: db_password
+
+    # ProxySQL #
+    - name: Add a user
+      community.proxysql.proxysql_mysql_users:
+        login_user: 'admin'
+        login_password: 'admin'
+        username: "{{ db_ud }}"
+        state: present
+        load_to_runtime: false
+      when: inventory_hostname == 'proxysql'
+    
+    - name: Save the mysql users config from memory to disk
+      community.proxysql.proxysql_manage_config:
+        login_user: 'admin'
+        login_password: 'admin'
+        action: "SAVE"
+        config_settings: "MYSQL USERS"
+        direction: "FROM"
+        config_layer: "MEMORY"
+      when: inventory_hostname == 'proxysql'
+
+    - name: Load the mysql query rules config from memory to runtime
+      community.proxysql.proxysql_manage_config:
+        config_file: '~/proxysql.cnf'
+        action: "LOAD"
+        config_settings: "MYSQL QUERY RULES"
+        direction: "TO"
+        config_layer: "RUNTIME"
+      when: inventory_hostname == 'proxysql'
+
+    
+    # - name: Display register
+    #   debug:  
+    #     msg: "{{ db_password.msg }}"
+
+    # FTP #
+    - name: Create FTP user
+      user:
+        name: "{{ db_ud }}"
+        group: ftp_users
+        update_password: always
+        password: "{{ db_password.msg | password_hash('sha512') }}"
+        shell: /bin/false
+        home: "/share/{{ domain }}"
+      when: inventory_hostname == 'ftp'
+
+    # NFS #
+    - name: Creates directory
+      file:
+        path: "/share/var/www/{{ domain }}"
+        state: directory
+      when: inventory_hostname == 'nfs'
+
+    - name: Create vhost config
+      copy:
+      dest: "/share/vhost/{{ domain }}.conf"
+      content: |
+          server {
+          root /var/www/html/"{{ domain }}";
+          index index.php index.html;
+          server_name "{{ domain }}";
+          access_log /var/log/nginx/"{{ domain }}".access.log;
+          error_log /var/log/nginx/"{{ domain }}".error.log;
+        
+          location / {
+            try_files $uri $uri/ /index.php?$args;
+          }
+
+          location ~ \.php$ {
+            include fastcgi.conf;
+            fastcgi_pass unix:/run/php/php8.1-fpm.sock;
+          }
+
+          location ^~ /phpmyadmin/ {
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $remote_addr;
+            proxy_set_header Host '$host';
+            proxy_pass http://192.168.100.150/;
+          }
+          }
+      when: inventory_hostname == 'nfs'
+
+    # WEB #
+    - name: Reload nginx
+      shell:  nginx -t && nginx -s reload
+      when: inventory_hostname in groups["web"]
+
