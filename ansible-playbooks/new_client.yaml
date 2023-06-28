@@ -54,6 +54,8 @@
 
     - name: Load the mysql query rules config from memory to runtime
       community.proxysql.proxysql_manage_config:
+        login_user: 'admin'
+        login_password: 'admin'
         config_file: '~/proxysql.cnf'
         action: "LOAD"
         config_settings: "MYSQL QUERY RULES"
