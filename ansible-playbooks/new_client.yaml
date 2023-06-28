@@ -37,6 +37,7 @@
         login_user: 'admin'
         login_password: 'admin'
         username: "{{ db_ud }}"
+        password: "{{ db_password.msg }}"
         state: present
         load_to_runtime: false
       when: inventory_hostname == 'proxysql'
