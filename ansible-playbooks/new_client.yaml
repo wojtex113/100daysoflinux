@@ -2,8 +2,8 @@
 - name: Configure new client
   hosts: all
   vars: # CHANGE ONLY THIS VARIABLES
-    db_ud: 'user2' # database username and database name
-    domain: 'user2.com'
+    db_ud: 'user3' # database username and database name
+    domain: 'user3.com'
  
   tasks:
   # DB #
@@ -39,7 +39,7 @@
         username: "{{ db_ud }}"
         password: "{{ db_password.msg }}"
         state: present
-        load_to_runtime: false
+        load_to_runtime: true
       when: inventory_hostname == 'proxysql'
     
     - name: Save the mysql users config from memory to disk
@@ -51,19 +51,7 @@
         direction: "FROM"
         config_layer: "MEMORY"
       when: inventory_hostname == 'proxysql'
-
-    - name: Load the mysql query rules config from memory to runtime
-      community.proxysql.proxysql_manage_config:
-        login_user: 'admin'
-        login_password: 'admin'
-        config_file: '~/proxysql.cnf'
-        action: "LOAD"
-        config_settings: "MYSQL QUERY RULES"
-        direction: "TO"
-        config_layer: "RUNTIME"
-      when: inventory_hostname == 'proxysql'
-
-    
+ 
     - name: Display register
       debug:  
         msg: "{{ db_password }}"
