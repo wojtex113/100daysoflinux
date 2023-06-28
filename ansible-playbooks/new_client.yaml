@@ -83,6 +83,9 @@
       file:
         path: "/share/var/www/{{ domain }}"
         state: directory
+        owner: unbound
+        group: ftp_users
+        mode: '0775'
       when: inventory_hostname == 'nfs'
 
     - name: Create vhost config
