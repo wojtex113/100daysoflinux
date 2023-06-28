@@ -20,7 +20,7 @@
         name: "{{ db_ud }}"
         password: "{{ lookup('ansible.builtin.password', '/tmp/passwordfile', length=8, chars=['digits']) }}"
         priv: "{{ db_ud }}.*:ALL"
-        host: "192.168.100.15"
+        host: "192.168.100.%"
         state: present
         update_password: on_create
       when: inventory_hostname == 'mariadb-master'
@@ -30,6 +30,7 @@
       debug:
         msg: "{{ lookup('ansible.builtin.file', '/tmp/passwordfile') }}"
       register: db_password
+      when: inventory_hostname == 'mariadb-master'
 
     # ProxySQL #
     - name: Add a user
@@ -88,11 +89,11 @@
         dest: "/share/vhost/{{ domain }}.conf"
         content: |
           server {
-          root /var/www/html/"{{ domain }}";
+          root /var/www/html/{{ domain }};
           index index.php index.html;
-          server_name "{{ domain }}";
-          access_log /var/log/nginx/"{{ domain }}".access.log;
-          error_log /var/log/nginx/"{{ domain }}".error.log;
+          server_name {{ domain }};
+          access_log /var/log/nginx/{{ domain }}.access.log;
+          error_log /var/log/nginx/{{ domain }}.error.log;
         
           location / {
             try_files $uri $uri/ /index.php?$args;
