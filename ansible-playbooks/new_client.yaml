@@ -85,8 +85,8 @@
 
     - name: Create vhost config
       copy:
-      dest: "/share/vhost/{{ domain }}.conf"
-      content: |
+        dest: "/share/vhost/{{ domain }}.conf"
+        content: |
           server {
           root /var/www/html/"{{ domain }}";
           index index.php index.html;
