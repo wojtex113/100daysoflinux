@@ -321,6 +321,15 @@ Disk management: copy the partition layout on second disk
 **Proxmox Lab**<br/>
 I've created an Ansible playbook that set up a website environment (including database, user, vhost configuration, etc.)
 
+### :yellow_circle: Day 62 (Thursday, 29-06-2023)
+**Proxmox Lab**<br/>
+- resolve the problem with the mysql.user table on mariadb-slave<br/>
+- improve yesterday's Ansible playbook<br/><br/>
+
+**[ADL]**<br/>
+- debugging problems with inodes on disks<br/>
+- recovering deleted data
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
