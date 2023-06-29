@@ -2,10 +2,16 @@
 - name: Configure new client
   hosts: all
   vars: # CHANGE ONLY THIS VARIABLES
-    db_ud: 'user3' # database username and database name
-    domain: 'user3.com'
+    db_ud: 'user4' # database username and database name
+    domain: 'user4.com'
  
   tasks:
+     # Local #
+    - name: Remove old tmp passwordfile
+      file:
+        state: absent
+        path: "/tmp/passwordfile"
+
   # DB #
     - name: Create database
       mysql_db: 
@@ -111,3 +117,4 @@
       shell:  nginx -t && nginx -s reload
       when: inventory_hostname in groups["web"]
 
+ 
