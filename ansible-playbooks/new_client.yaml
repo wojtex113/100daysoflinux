@@ -2,8 +2,8 @@
 - name: Configure new client
   hosts: all
   vars: # CHANGE ONLY THIS VARIABLES
-    db_ud: 'user4' # database username and database name
-    domain: 'user4.com'
+    db_ud: 'user5' # database username and database name
+    domain: 'user5.com'
  
   tasks:
      # Local #
