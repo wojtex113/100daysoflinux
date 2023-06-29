@@ -11,6 +11,7 @@
       file:
         state: absent
         path: "/tmp/passwordfile"
+      delegate_to: localhost
 
   # DB #
     - name: Create database
