@@ -330,6 +330,10 @@ I've created an Ansible playbook that set up a website environment (including da
 - debugging problems with inodes on disks<br/>
 - recovering deleted data
 
+### :yellow_circle: Day 63 (Friday, 30-06-2023)
+**[ADL]**<br/>
+An Introduction to Uncomplicated Firewall (UFW).
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
