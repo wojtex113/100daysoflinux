@@ -334,6 +334,12 @@ I've created an Ansible playbook that set up a website environment (including da
 **[ADL]**<br/>
 An Introduction to Uncomplicated Firewall (UFW).
 
+### :yellow_circle: Day 64 (Saturday, 01-07-2023)
+Review of articles and news.
+
+### :yellow_circle: Day 65 (Sunday, 02-07-2023)
+View video on YT about Kasm Workspaces. 
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
