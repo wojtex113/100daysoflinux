@@ -340,6 +340,11 @@ Review of articles and news.
 ### :yellow_circle: Day 65 (Sunday, 02-07-2023)
 View video on YT about Kasm Workspaces. 
 
+### :yellow_circle: Day 66 (Monday, 03-07-2023)
+**[ADL]**<br/>
+- How work with disk backup in the file?
+- additional files attributes
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
