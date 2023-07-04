@@ -345,6 +345,17 @@ View video on YT about Kasm Workspaces.
 - How work with disk backup in the file?
 - additional files attributes
 
+### :yellow_circle: Day 67 (Thuesday, 04-07-2023)
+**[ADL]**<br/>
+- disk load check
+- working with a lot of files<br/><br/>
+
+**Docker**<br/>
+I've create an environment to practice ProxySQL: 2 containers of MariaDB with replication, 2 containers of phpMyAdmin (to manage data in dbs) and a container with ProxySQL.<br/><br/>
+
+**VPS**<br/>
+I created a bash script to clean backups (removing all files older than 20 days).
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
