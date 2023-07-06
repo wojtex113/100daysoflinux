@@ -356,6 +356,14 @@ I've create an environment to practice ProxySQL: 2 containers of MariaDB with re
 **VPS**<br/>
 I created a bash script to clean backups (removing all files older than 20 days).
 
+### :yellow_circle: Day 68 (Wendesday, 05-07-2023) [Firefighter duty]
+Video on YT: Poczta w dzisiejszych czasach i podejście w stylu "devops" (SysOps / DevOps Polska)
+
+### :yellow_circle: Day 69 (Thursday, 06-07-2023)
+**[ADL]**<br/>
+Working with RAID arrays and LVM.
+
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
