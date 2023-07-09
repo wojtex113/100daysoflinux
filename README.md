@@ -363,6 +363,16 @@ Video on YT: Poczta w dzisiejszych czasach i podejście w stylu "devops" (SysOps
 **[ADL]**<br/>
 Working with RAID arrays and LVM.
 
+### :yellow_circle: Day 70 (Friday, 07-07-2023)
+**[ADL]**<br/>
+- How to troubleshoot network issues?<br/>
+- debugging DNS problems
+
+### :yellow_circle: Day 71 (Saturday, 08-07-2023) [Firefighter duty]
+Watch the film about HA on YT.
+
+### :yellow_circle: Day 72 (Sunday, 09-07-2023)
+Watch the film about awesome Linux terminal tools on YouTube.
 
 ---
 **Finished courses:**
