@@ -374,6 +374,11 @@ Watch the film about HA on YT.
 ### :yellow_circle: Day 72 (Sunday, 09-07-2023)
 Watch the film about awesome Linux terminal tools on YouTube.
 
+### :yellow_circle: Day 73 (Monday, 10-07-2023)
+**[ADL]**<br/>
+- working with routing<br/>
+- ssl certs
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
