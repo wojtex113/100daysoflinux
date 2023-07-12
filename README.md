@@ -382,6 +382,10 @@ Watch the film about awesome Linux terminal tools on YouTube.
 ### :yellow_circle: Day 74 (Thuesday, 11-07-2023) [Firefighter duty]
 Prometheus & grafana - video tutorial on YT.
 
+### :yellow_circle: Day 75 (Wendesday, 12-07-2023) 
+**Proxmox Lab**<br/>
+I've installed monitoring using Prometheus & Grafana.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
