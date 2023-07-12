@@ -379,6 +379,9 @@ Watch the film about awesome Linux terminal tools on YouTube.
 - working with routing<br/>
 - ssl certs
 
+### :yellow_circle: Day 74 (Thuesday, 11-07-2023) [Firefighter duty]
+Prometheus & grafana - video tutorial on YT.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
