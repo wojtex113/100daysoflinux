@@ -380,11 +380,18 @@ Watch the film about awesome Linux terminal tools on YouTube.
 - ssl certs
 
 ### :yellow_circle: Day 74 (Thuesday, 11-07-2023) [Firefighter duty]
-Prometheus & grafana - video tutorial on YT.
+Prometheus & Grafana - video tutorial on YT.
 
 ### :yellow_circle: Day 75 (Wendesday, 12-07-2023) 
 **Proxmox Lab**<br/>
 I've installed monitoring using Prometheus & Grafana.
+
+### :yellow_circle: Day 76 (Thursday, 13-07-2023) 
+**Proxmox Lab - Prometheus & Grafana**<br/>
+- installed the Node Exporter on the monitoring VM<br/>
+- added it to the Prometheus targets<br/>
+- imported the dashboard 'Node Exporter Full'<br/>
+- created Ansible playbook which install the Node Exporter on servers
 
 ---
 **Finished courses:**
