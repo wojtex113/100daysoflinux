@@ -1,0 +1,61 @@
+---
+- name: Install and configure node exporter on servers
+  hosts: all
+  vars:
+    version: 1.6.0
+  tasks:
+   - name: Create user group
+     group:
+        name: prometheus
+        state: present
+   - name: Create user
+     user:
+        name: prometheus
+        group: prometheus
+        createhome: no
+        system: yes
+        state: present
+   - name: Create directory for Prometheus
+     file: 
+        path: /prometheus 
+        state: directory
+   - name: Download Node Exporter
+     get_url:
+        url: https://github.com/prometheus/node_exporter/releases/download/v{{ version }}/node_exporter-{{ version }}.linux-amd64.tar.gz
+        dest: /prometheus
+   - name: Unarchive exporter
+     unarchive:
+        remote_src: yes
+        src: /prometheus/node_exporter-{{ version }}.linux-amd64.tar.gz
+        dest: /prometheus
+   - name: Create service
+     copy:
+        dest: /etc/systemd/system/node_exporter.service
+        content: |
+          [Unit]
+          Description=Node Exporter for Prometheus
+          Wants=network-online.target
+          After=network-online.target
+
+          [Service]
+          User=prometheus
+          ExecStart=/prometheus/node_exporter-{{ version }}.linux-amd64/node_exporter
+
+          [Install]
+          WantedBy=multi-user.target
+   - name: Add port to firewalld
+     firewalld:
+        permanent: yes
+        immediate: yes
+        port: 9100/tcp
+        state: enabled
+     when: ansible_facts['os_family'] == 'RedHat'
+   - name: Configure SELinux
+     shell: chcon -t bin_t /prometheus/node_exporter-1.6.0.linux-amd64/node_exporter
+     when: ansible_facts['os_family'] == 'RedHat'
+   - name: Run service
+     systemd:
+        daemon_reload: yes
+        enabled: yes
+        state: started
+        name: node_exporter.service
