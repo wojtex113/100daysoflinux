@@ -393,6 +393,14 @@ I've installed monitoring using Prometheus & Grafana.
 - imported the dashboard 'Node Exporter Full'<br/>
 - created Ansible playbook which install the Node Exporter on servers
 
+### :yellow_circle: Day 77 (Friday, 14-07-2023) 
+**Proxmox Lab**<br/>
+- created Docker container with dnsmasq<br/>
+- added targets (with hostnames) to Prometheus<br/><br/>
+
+**[ADL]**<br/>
+Accessing Linux with a forgotten root password.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
