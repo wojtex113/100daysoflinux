@@ -23,6 +23,11 @@
      get_url:
         url: https://github.com/prometheus/node_exporter/releases/download/v{{ version }}/node_exporter-{{ version }}.linux-amd64.tar.gz
         dest: /prometheus
+   - name: Install tar on RedHat based
+     yum:
+        name: tar
+        state: latest
+     when: ansible_facts['os_family'] == 'RedHat'
    - name: Unarchive exporter
      unarchive:
         remote_src: yes
