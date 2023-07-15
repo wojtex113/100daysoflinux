@@ -401,6 +401,10 @@ I've installed monitoring using Prometheus & Grafana.
 **[ADL]**<br/>
 Accessing Linux with a forgotten root password.
 
+### :yellow_circle: Day 78 (Saturday, 15-07-2023) 
+**[ADL]**<br/>
+Usefull apps - HTOP, XARGS.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
