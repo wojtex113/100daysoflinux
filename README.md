@@ -408,8 +408,14 @@ Usefull apps - HTOP, XARGS.
 ### :yellow_circle: Day 79 (Sunday, 16-07-2023) 
 Review of articles and news.
 
+### :yellow_circle: Day 80 (Monday, 17-07-2023) 
+**[ADL]**<br/>
+- SSH tunneling
+- troubleshooting email issues
+- nethogs
+
 ---
-**Finished courses:**
+**Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
 - "Ansible w godzinę" - Jakub ‘unknow’ Mrugalski
 - "Administracja Serwerami Linux" - Grupa ADM
