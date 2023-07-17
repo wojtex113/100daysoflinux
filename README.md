@@ -405,6 +405,9 @@ Accessing Linux with a forgotten root password.
 **[ADL]**<br/>
 Usefull apps - HTOP, XARGS.
 
+### :yellow_circle: Day 79 (Sunday, 16-07-2023) 
+Review of articles and news.
+
 ---
 **Finished courses:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
