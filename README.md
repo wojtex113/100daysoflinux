@@ -414,6 +414,13 @@ Review of articles and news.
 - troubleshooting email issues
 - nethogs
 
+### :yellow_circle: Day 81 (Thuesday, 18-07-2023) 
+**[ADL]**<br/>
+- Usefull apps - netcat, iptraf-ng<br/>
+- Extending SWAP space<br/>
+- Gather server information<br/>
+- Backup of a full disk to another host
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
