@@ -421,11 +421,18 @@ Review of articles and news.
 - Gather server information<br/>
 - Backup of a full disk to another host
 
+### :yellow_circle: Day 82 (Wendesday, 18-07-2023) 
+**[ADL]**<br/>
+I've troubleshooted and repaired "zjebanos" (by Jakub ‘unknow’ Mrugalski).<br/><br/>
+
+Today I finished a course **"Akademia Debugowania Linuksa"** by Jakub ‘unknow’ Mrugalski.<br/><br/>
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
 - "Ansible w godzinę" - Jakub ‘unknow’ Mrugalski
 - "Administracja Serwerami Linux" - Grupa ADM
+- "Akademia Debugowania Linuksa" - Jakub ‘unknow’ Mrugalski
 
 - ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski 
 
