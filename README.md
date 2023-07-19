@@ -421,7 +421,7 @@ Review of articles and news.
 - Gather server information<br/>
 - Backup of a full disk to another host
 
-### :yellow_circle: Day 82 (Wendesday, 18-07-2023) 
+### :yellow_circle: Day 82 (Wendesday, 19-07-2023) 
 **[ADL]**<br/>
 I've troubleshooted and repaired "zjebanos" (by Jakub ‘unknow’ Mrugalski).<br/><br/>
 
