@@ -427,6 +427,15 @@ I've troubleshooted and repaired "zjebanos" (by Jakub ‘unknow’ Mrugalski).<b
 
 Today I finished a course **"Akademia Debugowania Linuksa"** by Jakub ‘unknow’ Mrugalski.<br/><br/>
 
+### :yellow_circle: Day 83 (Thursday, 20-07-2023) [Firefighter duty]
+Article: "Syslog: The Complete System Administrator Guide"
+
+### :yellow_circle: Day 84 (Friday, 21-07-2023) 
+Article: "Monitoring Linux Logs with Kibana and Rsyslog"
+
+### :yellow_circle: Day 85 (Saturday, 22-07-2023) 
+I practiced HAProxy with Keeaplived, using nginx as the backend. Everything ran as Docker containers.
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
