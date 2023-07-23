@@ -436,6 +436,9 @@ Article: "Monitoring Linux Logs with Kibana and Rsyslog"
 ### :yellow_circle: Day 85 (Saturday, 22-07-2023) 
 I practiced HAProxy with Keeaplived, using nginx as the backend. Everything ran as Docker containers.
 
+### :yellow_circle: Day 86 (Sunday, 23-07-2023) 
+Review news about Linux.
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
