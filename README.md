@@ -63,7 +63,7 @@ run 3 Ubuntu virtual machines in VirtualBox and manage them with Ansible from a 
 ### :yellow_circle: Day 11 (Thuesday, 09-05-2023) [Firefighter duty]
 - read articles on redhat.com
 
-### :yellow_circle: Day 12 (Wendesday, 10-05-2023)
+### :yellow_circle: Day 12 (Wednesday, 10-05-2023)
 **Ansible**
 - "Ansible in a hour" course by Jakub ‘unknow’ Mrugalski (other lessons)<br/>
 - ebook '77 zadań dla adminów' by Jakub ‘unknow’ Mrugalski - Ansible<br/>
@@ -111,7 +111,7 @@ I configured an RHEL VM as a router for another VMs in VirtualBox. Below is the 
 Post on the blog:<br/>
 https://wojst.pl/linux-jako-router-na-podstawie-rhel/<br/>
 
-### :yellow_circle: Day 19 (Wendesday, 17-05-2023)
+### :yellow_circle: Day 19 (Wednesday, 17-05-2023)
 **Disk management [ASL]**<br/>
 Red Hat lab in VirtualBox: add disk to VM, create / remove partition (fdisk), mount created partition (mount, umount, lsblk, /etc/fstab), LVM management.<br />
 It wasn't covered in the course, but I wanted to relab RAID (from Red Hat's official documentation): add 2 disks to a VM, create RAID1, simulate failed disk (remove second disk from VM), add new disk and attempting to repair the RAID.
@@ -153,7 +153,7 @@ An introdution to SELinux.<br/><br/>
 **Proxmox Lab**<br/>
 I installed nginx on two VMs (Debian and RockyLinux) and mounted NFS share to /var/www/html on both servers. On pfSense, I forwarded SSH ports to manage all servers from the outside.
 
-### :yellow_circle: Day 26 (Wendesday, 24-05-2023) [Firefighter duty]
+### :yellow_circle: Day 26 (Wednesday, 24-05-2023) [Firefighter duty]
 **Proxmox Lab**<br/>
 I installed two versions of php (7.4 and 8.1) as fpm on both web servers. Additionaly, I created NFS share with vhost configurations and mount as RO on web servers.
 
@@ -183,7 +183,7 @@ I installed ProxySQL on a VM with Debian and added both database servers to it. 
 **Security + backup [ASL]**<br/>
 This module contains penetration tests (with Kali Linux) and creating backup with rsync.
 
-### :yellow_circle: Day 33 (Wendesday, 31-05-2023) 
+### :yellow_circle: Day 33 (Wednesday, 31-05-2023) 
 **Troubleshooting [ASL]**<br/>
 Introduction to troubleshooting.<br/><br/>
 
@@ -217,7 +217,7 @@ Install and configure log server.
 - DRP<br/>
 - How to troubleshoot Linux problems (using the example of zabbix_agent)?
 
-### :yellow_circle: Day 40 (Wendesday, 07-06-2023) 
+### :yellow_circle: Day 40 (Wednesday, 07-06-2023) 
 **Troubleshooting [ASL]**<br/>
 In th 10th module's homework I troubleshooted problems on a VM with CentOS - IP configuration, SSH service and Apache.
 
@@ -254,7 +254,7 @@ Debugging cron and Docker.<br/><br/>
 **Proxmox Lab**<br/>
 On Proxmox CT, I installed Docker and created container inside it with phpMyAdmin (which is linked to ProxySQL). Next, on the web servers, I added a proxy pass from the domain/phpmyadmin to the container.
 
-### :yellow_circle: Day 47 (Wendesday, 14-06-2023)
+### :yellow_circle: Day 47 (Wednesday, 14-06-2023)
 Repair of a WordPress-based website - virus removal, access restoration and finally protection.
 
 ### :yellow_circle: Day 48 (Thursday, 15-06-2023)
@@ -286,7 +286,7 @@ A review of the process content in the /proc directory and an introduction to th
 **Proxmox Lab**<br/>
 Create an Ansible playbook for the installation and configuration fail2ban - blocks sshd.
 
-### :yellow_circle: Day 54 (Wendesday, 21-06-2023)
+### :yellow_circle: Day 54 (Wednesday, 21-06-2023)
 **[ADL]**<br/>
 Apache performance tuning - configurate MPM.
 
@@ -317,7 +317,7 @@ Disk management: copy the partition layout on second disk
 - add Redis VM to an Ansible Semaphore,<br/>
 - install and configure Redis WordPress plugin
 
-### :yellow_circle: Day 61 (Wendesday, 28-06-2023)
+### :yellow_circle: Day 61 (Wednesday, 28-06-2023)
 **Proxmox Lab**<br/>
 I've created an Ansible playbook that set up a website environment (including database, user, vhost configuration, etc.)
 
@@ -356,7 +356,7 @@ I've create an environment to practice ProxySQL: 2 containers of MariaDB with re
 **VPS**<br/>
 I created a bash script to clean backups (removing all files older than 20 days).
 
-### :yellow_circle: Day 68 (Wendesday, 05-07-2023) [Firefighter duty]
+### :yellow_circle: Day 68 (Wednesday, 05-07-2023) [Firefighter duty]
 Video on YT: Poczta w dzisiejszych czasach i podejście w stylu "devops" (SysOps / DevOps Polska)
 
 ### :yellow_circle: Day 69 (Thursday, 06-07-2023)
@@ -382,7 +382,7 @@ Watch the film about awesome Linux terminal tools on YouTube.
 ### :yellow_circle: Day 74 (Thuesday, 11-07-2023) [Firefighter duty]
 Prometheus & Grafana - video tutorial on YT.
 
-### :yellow_circle: Day 75 (Wendesday, 12-07-2023) 
+### :yellow_circle: Day 75 (Wednesday, 12-07-2023) 
 **Proxmox Lab**<br/>
 I've installed monitoring using Prometheus & Grafana.
 
@@ -421,7 +421,7 @@ Review of articles and news.
 - Gather server information<br/>
 - Backup of a full disk to another host
 
-### :yellow_circle: Day 82 (Wendesday, 19-07-2023) 
+### :yellow_circle: Day 82 (Wednesday, 19-07-2023) 
 **[ADL]**<br/>
 I've troubleshooted and repaired "zjebanos" (by Jakub ‘unknow’ Mrugalski).<br/><br/>
 
@@ -438,6 +438,19 @@ I practiced HAProxy with Keeaplived, using nginx as the backend. Everything ran 
 
 ### :yellow_circle: Day 86 (Sunday, 23-07-2023) 
 Review news about Linux.
+
+### :yellow_circle: Day 87 (Monday, 24-07-2023) 
+Testing the MIKR.US VPS.
+
+### :yellow_circle: Day 88 (Thuesday, 25-07-2023) 
+Video on YT: "Administracja ElasticSearch dla początkujących"
+
+### :yellow_circle: Day 89 (Wednesday, 26-07-2023) [Firefighter duty] 
+Video on YT: "Tworzenie środowiska HA. Narzędzia i przykłady"
+
+### :yellow_circle: Day 90 (Thursday, 27-07-2023) 
+**Proxmox Lab**<br/>
+Run an NTP server as a Docker container.
 
 ---
 **Finished courses during this challenge:**
