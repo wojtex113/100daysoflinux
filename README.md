@@ -453,7 +453,7 @@ Video on YT: "Tworzenie środowiska HA. Narzędzia i przykłady"
 Run an NTP server as a Docker container.
 
 ### :yellow_circle: Day 91 (Friday, 28-07-2023) 
-Configure a Galera Cluster with MariaDB inside Docker containers with Debian
+Configure a Galera Cluster with MariaDB inside Docker containers with Debian.
 
 ---
 **Finished courses during this challenge:**
