@@ -455,6 +455,15 @@ Run an NTP server as a Docker container.
 ### :yellow_circle: Day 91 (Friday, 28-07-2023) 
 Configure a Galera Cluster with MariaDB inside Docker containers with Debian.
 
+### :yellow_circle: Day 92 (Saturday, 29-07-2023) [Firefighter duty] 
+Video on YT: "Popular Linux interview questions for DevOps interviews"
+
+### :yellow_circle: Day 93 (Sunday, 30-07-2023) 
+Review news about Linux.
+
+### :yellow_circle: Day 94 (Monday, 31-07-2023) 
+Linux Containers vs Docker - What is the difference?
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
