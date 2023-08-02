@@ -467,6 +467,10 @@ Linux Containers vs Docker - What is the difference?
 ### :yellow_circle: Day 95 (Thuesday, 01-08-2023) [Firefighter duty] 
 Video on YT about "How to run HomeAssistant in Proxmox"
 
+### :yellow_circle: Day 96 (Wednesday, 02-08-2023)
+**Proxmox Lab**<br/>
+Create an Ansible playbook for configuring hosts as NTP clients.
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
