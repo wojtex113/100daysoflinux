@@ -1,0 +1,93 @@
+---
+- name: Configure hosts as NTP client
+  hosts: all
+  tasks:
+    - name: Set timezone 
+      timezone:
+        name: Europe/Warsaw
+
+    - name: Install chrony
+      yum:
+        name: chrony
+        state: latest
+      when: ansible_facts['os_family'] == 'RedHat'
+
+    - name: apt update && apt upgrade
+      apt:
+        update_cache: true
+        upgrade: yes
+      when: ansible_facts['os_family'] == 'Debian'
+
+    - name: Install packages
+      apt:
+        name: ntp
+        state: present
+      when: ansible_facts['os_family'] == 'Debian'
+
+    # Debian
+    - name: Add a line to config
+      lineinfile:
+        path: /etc/ntpsec/ntp.conf
+        line: server 192.168.100.150 prefer iburst
+        state: present
+      when: ansible_facts['os_family'] == 'Debian'
+
+    - name: Restart the service
+      systemd:
+        enabled: true
+        name: ntp
+        state: restarted
+      when: ansible_facts['os_family'] == 'Debian'
+      
+    - name: Check client
+      shell: ntpq -p
+      register: check_client
+      when: ansible_facts['os_family'] == 'Debian'
+
+    - name: Display Debian client
+      debug:
+        msg: "{{ check_client.stdout }}"
+      when: ansible_facts['os_family'] == 'Debian'
+
+    # RockyLinux
+    - name: Restart the service
+      systemd:
+        enabled: true
+        name: chronyd
+        state: restarted
+      when: ansible_facts['os_family'] == 'RedHat'
+     
+    - name: Add to firewall
+      firewalld:
+        permanent: yes
+        immediate: yes
+        port: 123/udp
+        state: enabled
+      when: ansible_facts['os_family'] == 'RedHat'
+
+    - name: Edit chronyd config file
+      lineinfile:
+        path: /etc/chrony.conf 
+        regexp: '^pool'
+        line: server 192.168.100.150
+      when: ansible_facts['os_family'] == 'RedHat'
+   
+    - name: Set NTP true
+      shell: timedatectl set-ntp true
+      when: ansible_facts['os_family'] == 'RedHat'
+
+    - name: Restart the service
+      systemd:
+        name: chronyd
+        state: restarted
+      when: ansible_facts['os_family'] == 'RedHat'
+
+    - name: Verify Rocky clients
+      shell: chronyc sources
+      register: rocky_clients
+      when: ansible_facts['os_family'] == 'RedHat'
+
+    - name: Display Rocky NTP clients
+      debug:
+       msg: "{{ rocky_clients.stdout }}"
+      when: ansible_facts['os_family'] == 'RedHat'
