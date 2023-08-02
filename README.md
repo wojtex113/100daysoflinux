@@ -464,6 +464,9 @@ Review news about Linux.
 ### :yellow_circle: Day 94 (Monday, 31-07-2023) 
 Linux Containers vs Docker - What is the difference?
 
+### :yellow_circle: Day 95 (Thuesday, 01-08-2023) [Firefighter duty] 
+Video on YT about "How to run HomeAssistant in Proxmox"
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
