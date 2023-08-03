@@ -471,6 +471,10 @@ Video on YT about "How to run HomeAssistant in Proxmox"
 **Proxmox Lab**<br/>
 Create an Ansible playbook for configuring hosts as NTP clients.
 
+### :yellow_circle: Day 97 (Thursday, 03-08-2023)
+**Proxmox Lab**<br/>
+Installation and configuration of the rsyslog server on the 'monitoring' VM.
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
