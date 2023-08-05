@@ -475,6 +475,9 @@ Create an Ansible playbook for configuring hosts as NTP clients.
 **Proxmox Lab**<br/>
 Installation and configuration of the rsyslog server on the 'monitoring' VM.
 
+### :yellow_circle: Day 98 (Friday, 04-08-2023) [Firefighter duty] 
+Video on YT: "Proxmox virtual machine automation in Terraform"
+
 ---
 **Finished courses during this challenge:**
 - "NGINX w godzinę" - Jakub ‘unknow’ Mrugalski
