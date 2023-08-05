@@ -32,6 +32,15 @@
         state: present
       when: ansible_facts['os_family'] == 'Debian'
 
+    - name: Turn off pool config
+
+    - name: Zakomentuj linijki zaczynające się od "pool"
+      lineinfile:
+        path: /etc/ntp.conf
+        regexp: '^pool'
+        line: '#pool'
+      when: ansible_facts['os_family'] == 'Debian'
+
     - name: Restart the service
       systemd:
         enabled: true
