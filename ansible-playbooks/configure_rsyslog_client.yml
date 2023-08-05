@@ -1,0 +1,67 @@
+---
+- name: Configure hosts as rsyslog client
+  hosts: all
+  tasks:
+    - name: Install rsyslog
+      yum:
+        name: rsyslog
+        state: latest
+      when: ansible_facts['os_family'] == 'RedHat'
+
+    - name: Install packages
+      apt:
+        update_cache: true
+        name: rsyslog
+        state: present
+      when: ansible_facts['os_family'] == 'Debian'
+
+    # Debian
+    - name: Add a lines to config
+      lineinfile:
+        path: /etc/rsyslog.conf
+        line: |
+          *.* @@192.168.100.200:514
+          $ActionQueueFileName queue
+          $ActionQueueMaxDiskSpace 1g
+          $ActionQueueSaveOnShutdown on
+          $ActionQueueType LinkedList
+          $ActionResumeRetryCount -1
+        create: yes
+      when: ansible_facts['os_family'] == 'Debian'
+
+    - name: Restart the service
+      systemd:
+        enabled: true
+        name: rsyslog
+        state: restarted
+      when: ansible_facts['os_family'] == 'Debian'
+      
+    # RockyLinux
+    - name: Add to firewall
+      firewalld:
+        permanent: yes
+        immediate: yes
+        port: 514/tcp
+        state: enabled
+      when: ansible_facts['os_family'] == 'RedHat'
+
+    - name: Edit rsyslog config file
+      lineinfile:
+        path: /etc/rsyslog.d/remotelog.conf
+        line: |
+          *.* action(type="omfwd"
+          queue.type="linkedlist"
+          queue.filename="queue_file"
+          action.resumeRetryCount="-1"
+          queue.saveOnShutdown="on"
+          target="192.168.100.200" port="514" protocol="tcp"
+          )
+        create: yes
+      when: ansible_facts['os_family'] == 'RedHat'
+    
+    - name: Restart the service
+      systemd:
+        enabled: true
+        name: rsyslog
+        state: restarted
+      when: ansible_facts['os_family'] == 'RedHat'
