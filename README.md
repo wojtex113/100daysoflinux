@@ -5,6 +5,9 @@ I write my thoughts, tips and another IT notes on the blog, which can be found a
 
 Today (29-04-2023) I've started the #100DaysOfLinux challenge. My goal is to finish all courses I have purchased but haven't yet completed and complete many labs during this time.
 
+**Update:**
+Today (06-08-2023) I've finished this challenge :)
+
 I aspire to be a Linux Administrator, which is my main goal, and I'm also considering the possibility of working in DevOps or SysOps.
 
 Additionaly, I'm a firefighter in Państwowa Straż Pożarna, where we work 24-hour shifts every three days. During my shifts I will try found a few minutes to read or watch something related to this challenge.
@@ -481,6 +484,9 @@ Video on YT: "Proxmox virtual machine automation in Terraform"
 ### :yellow_circle: Day 99 (Saturday, 05-08-2023)
 **Proxmox Lab**<br/>
 Configure hosts as rsyslog clients using Ansible playbook.
+
+### :yellow_circle: Day 100 (Sunday, 06-08-2023)
+A deeper look into Systemd.
 
 ---
 **Finished courses during this challenge:**
